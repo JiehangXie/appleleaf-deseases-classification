@@ -1,0 +1,12 @@
+complex
+frog_eye_leaf_spot
+frog_eye_leaf_spot-complex
+healthy
+powdery_mildew
+powdery_mildew-complex
+rust
+rust-complex
+rust-frog_eye_leaf_spot
+scab
+scab-frog_eye_leaf_spot
+scab-frog_eye_leaf_spot-complex

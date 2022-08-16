@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "苹果医生"
+			}
+		}
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "我的主页"
+            }
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "识别记录"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+"tabBar":{
+		"borderStyle":"black",//边框颜色
+		"backgroundColor":"#F7F7F7",//背景颜色
+		"color":"#000000",//默认颜色
+		"selectedColor":"#07C160",//选中的颜色
+		"current": 1,
+		"list":[
+			{
+				"iconPath":"static/icon/his.png",
+				"selectedIconPath":"static/icon/his1.png",
+				"text":"识别记录",
+				"pagePath":"pages/history/history"
+			},
+			{
+				"iconPath":"static/icon/dis.png",
+				"selectedIconPath":"static/icon/dis1.png",
+				"text":"识别病害",
+				"pagePath":"pages/index/index"
+			},
+			{
+				"iconPath":"static/icon/user.png",
+				"selectedIconPath":"static/icon/user1.png",
+				"text":"我",
+				"pagePath":"pages/user/user"
+			}
+		]
+	}
+
+}
